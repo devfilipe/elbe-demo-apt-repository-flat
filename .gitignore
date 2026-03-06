@@ -1,9 +1,11 @@
 # Generated repo artifacts
-repo/*.deb
-repo/*.dsc
-repo/*.tar.*
-repo/*.buildinfo
-repo/*.changes
+*.deb
+*.dsc
+*.tar.gz
+*.tar.xz
+*.tar.bz2
+*.buildinfo
+*.changes
 
 # Generated APT index files
 repo/Packages
